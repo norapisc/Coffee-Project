@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Coffe Project</title>
+<head>
+    <link rel="stylesheet" href="css.css">
+    
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Order.html">Order</a>
+        <img src="logo.png" height=90px width=90px>
+        <a href="Contact.html">Contact</a>
+        <a href="Coffes.html">Coffee's</a>
+    </div>
+    <h1 class="Order">Order</h1>
+    <form>
+        <label for="Ctype">Enter the Coffee Type:</label>
+        <input type="text" id="Ctype" name="Ctype"><br><br>
+
+        <label for="Quantity">Enter the Desired Quantity:</label>
+        <input type="text" id="Quantity" name="Quantity"><br><br>
+
+        <label for="arrival">Enter the Arrival Time:</label>
+        <input type="date" id="start" name="trip-start" value="2023-09-22" min="2023-07-09" max="2023-12-31" />
+        <br><br>
+
+        <select width=300 style="width: 250px">
+            <option value='AlAwali'>Al-Awali</option>
+            <option value='Aziziyah'>Aziziyah</option>
+            <option value='Asharai'>Asharai</option>
+            <option value='AlZaher'>Al-Zaher</option>
+            <option value='' selected>Select the Neighborhood</option>
+        </select><br><br>
+        <label>Please Select The payment Method</label><br>
+        <div class="radio">
+        <input type="radio" id="Cash" name="PaymentMethod" value="CASH">
+        <label class="radio" for="Cash">CASH</label><br>
+        <input type="radio" id="Card" name="PaymentMethod" value="CARD">
+        <label class="radio" for="Card">CARD</label><br><br>
+        </div>
+        <button class="btn">Send Order</button>
+    </form>
+</body>
+
+</html>

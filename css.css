@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+}
+
+.topnav {
+    background-color: #4f2a65;
+    overflow: hidden;
+    padding-left: 200px;
+  }
+
+  .topnav img{
+    padding: 0px;
+    float: left;
+  }
+
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 34px 36px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .topnav a:hover {
+    color: #4f2a65;
+    background-color: white;
+  }
+  
+  body{
+    background-color: rgb(214, 188, 233);
+  }
+  h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  h1.Order{
+    animation: fadeIn 3s ;
+  }
+form{
+    text-align: center;
+    color:white;
+    background-color:  #4f2a65;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    font-weight: bolder;
+    animation: fadeIn 5s ;
+}
+select{
+    color: #4f2a65;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.btn{
+    color: #4f2a65;
+    width: 80px;
+    height: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    align-items: center;
+}
+
+label{
+  width: 240px;
+  display: inline-block;
+}
+
+input{
+  width: 240px;
+  display: inline-block;
+}
+
+div.radio {
+ display: flex;
+ flex-direction: column;
+}
+
+label.radio{
+  padding-left: 30px;
+}
+
+h1.coffes{
+  animation: fadeIn 3s ;
+}
+div.coffes{
+background-color: #4f2a65;
+text-align: center;
+padding-left: 5px;
+color: #ffffff;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 150px;
+margin-right: 150px;
+border-radius: 30px;
+animation: fadeIn 5s ;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+h1.Main{
+  font-size: 80px;
+  animation: fadeIn 5s;
+  font-family: 'Oregano', cursive;
+}
+
+p.Main{
+  text-align: center;
+  color: #ffffff;
+  animation: fadeIn 5s;
+  font-family: 'Oregano', cursive;
+  font-size: 30px;
+}
+
+div.AboutUs{
+  background-color: #4f2a65;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 280px;
+  margin-right: 280px;
+  line-height: 1.5em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  animation: fadeIn 5s;
+}
+h1.AboutUs{
+  animation: fadeIn 3s ;
+}
